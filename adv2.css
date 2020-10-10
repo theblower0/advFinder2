@@ -1,0 +1,355 @@
+.titulo1{
+    color:honeydew;
+    font-size: 2.5em;
+    font-family: Arial;
+    margin-top: 10px;
+    
+
+}
+.titulo2{
+    color:rgb(229,190,001);
+    font-size: 2.5em;
+    font-family: Arial;
+    
+}
+
+h2{
+    color: honeydew;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    width: fit-content;
+    background-color: rgba(199, 199, 199, 0.048);
+}
+.descriptionHead{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Helvetica;
+    font-size: 1rem;
+    width: fit-content;
+    background-color: rgba(126, 124, 124, 0.233);
+    
+}
+.descriptionHead p{
+    margin: 0px;
+}
+.firstContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.8rem 7rem;
+}
+.menuIcon{
+    position: relative;
+    right: 100px;
+    fill: currentColor;
+    color: honeydew;
+    border-radius: 30%;
+
+
+}
+.profileIcon{
+    position: relative;
+    left: 170px;
+    background-image: url(images/profilePhoto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15%;
+    padding: 1rem;
+    filter: drop-shadow(0px 5px 8px black);
+    border: 4px solid rgba(255, 255, 255, 0.377);
+}
+
+.lupaIcon{
+    position: relative;
+    left: 80px;
+    fill: currentColor;
+    color: rgb(0, 0, 0);
+    background-color: rgba(169, 169, 169, 0.288);
+    border-radius: 50px;
+    padding:5px;
+    
+
+
+
+}
+
+.headContent{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: brigthness(10%);
+    background-size: cover; 
+    height: 50vh; 
+ 
+}
+header{
+    padding: 0px 0px 0px 20px;
+    text-align: left;   
+    margin-top: 10px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    color: rgb(207, 207, 207);
+ 
+}
+
+.infoContent{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    color: rgb(36, 36, 36);
+    font-family: sans-serif;
+    font-size: 1em;
+    padding: 5px 0px 5px 20px;
+    background-color:rgb(229,190,001);;
+
+}
+ul{
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    float: left;
+    text-align: center;
+    margin-left: 1px;
+    padding: 0 4px;
+
+    
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+    
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+.menuContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial;
+    font-size: 1em;      
+    margin-top: 30px;
+    margin-bottom: 10px; 
+    text-decoration: none;
+    
+
+}
+
+.campOp{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    filter: drop-shadow(8px 8px 10px gray);
+    margin-bottom: 30px;
+    height: 200px;
+}
+.imagen1{
+    position: relative;
+    left:20px;
+    height:100%;
+    width: 150px;
+    border-radius: 10%;
+    background-image: url(images/camping.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+   
+   
+}
+.text1{
+    margin:0px;
+    position: relative;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    right: 20px;
+    height: 100%;
+    width: 180px;
+    padding-left: 20px;
+    background-color: honeydew;
+    color: black;
+    text-align: left;
+
+
+}
+#tituloBoton{
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.star{
+    
+    background-color:none;
+    position: relative;
+    margin: 0px;
+    fill: currentColor;
+    color:rgb(229,190,001);;
+    
+
+}
+#noColor{
+    fill: currentColor;
+    color: gray;
+}
+ .botonRead{
+     text-align: center;
+    position: relative;
+    font-size:.8em;
+    margin: 0px;
+    background-color: rgb(229,190,001);
+    border-radius: 40px;
+    width: fit-content;
+    height: fit-content;
+    padding: 1px 20px;
+
+ }
+
+
+.climbOp{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    filter: drop-shadow(8px 8px 10px gray);
+    background-size: 100%;
+    margin-bottom: 30px;
+    cursor: pointer;
+    height: 200px;
+}
+.imagen2{
+    position: relative;
+    left:20px;
+    height:100%;
+    width: 150px;
+    border-radius: 10%;
+    background-image: url(images/climbing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.text2{
+    margin:0px;
+    position: relative;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    right: 20px;
+    height: 100%;
+    width: 180px;
+    padding-left: 20px;
+    background-color: honeydew;
+
+    color: black;
+    text-align: left;
+}
+
+
+
+
+.snorkOp{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    filter: drop-shadow(8px 8px 10px gray);
+    background-size: 100%;
+    margin-bottom: 30px;
+    cursor: pointer;
+    height: 200px;
+}
+.imagen3{
+    position: relative;
+    left:20px;
+    height:100%;
+    width: 150px;
+    border-radius: 10%;
+    background-image: url(images/snorkeling.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.text3{
+    margin:0px;
+    position: relative;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    right: 20px;
+    height: 100%;
+    width: 180px;
+    padding-left: 20px;
+    background-color: honeydew;
+
+    color: black;
+    text-align: left;
+}
+
+
+
+
+
+.kayOp{
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    filter: drop-shadow(8px 8px 10px gray);
+    background-size: 100%;
+    margin-bottom: 30px;
+    cursor: pointer;
+    height: 200px;
+}
+.imagen4{
+    position: relative;
+    left:20px;
+    height:100%;
+    width: 150px;
+    border-radius: 10%;
+    background-image: url(images/kayaking.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.text4{
+    margin:0px;
+    position: relative;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    right: 20px;
+    height: 100%;
+    width: 180px;
+    padding-left: 20px;
+    background-color: honeydew;
+
+    color: black;
+    text-align: left;
+}
