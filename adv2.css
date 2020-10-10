@@ -51,7 +51,7 @@ h2{
 }
 .profileIcon{
     position: relative;
-    left: 190px;
+    left: 200px;
     background-image: url(images/profilePhoto.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -226,6 +226,7 @@ a:hover{
     width: fit-content;
     height: fit-content;
     padding: 1px 20px;
+    cursor: pointer;
 
  }
 
@@ -237,7 +238,6 @@ a:hover{
     filter: drop-shadow(8px 8px 10px gray);
     background-size: 100%;
     margin-bottom: 30px;
-    cursor: pointer;
     height: 200px;
 }
 .imagen2{
@@ -279,7 +279,6 @@ a:hover{
     filter: drop-shadow(8px 8px 10px gray);
     background-size: 100%;
     margin-bottom: 30px;
-    cursor: pointer;
     height: 200px;
 }
 .imagen3{
@@ -322,7 +321,6 @@ a:hover{
     filter: drop-shadow(8px 8px 10px gray);
     background-size: 100%;
     margin-bottom: 30px;
-    cursor: pointer;
     height: 200px;
 }
 .imagen4{
